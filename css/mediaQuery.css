@@ -24,13 +24,17 @@
 
   .testimonial .container .card{
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: left;
     
   }
 
   .testimonial .container .card div{
-    width: 75%;
+    width: 55%;
+  }
+
+  .benefits .container .card{
+    width: calc(95% /2);
   }
   
 }
@@ -40,9 +44,11 @@
 
   header .container,
   .get .container,
-  .testimonial .container
+  .testimonial .container,
+  .benefits .container
   {
     width: 70%;
+    max-width: 1280px;
   }
 
   header .container .items ul li:not(li:last-child) {
@@ -56,14 +62,20 @@
   .planning .container{
     text-align: center;
     width: 65%;
+    max-width: 1190px;
   }
 
   .planning .container .card{
     display: inline-block;
     width: 49%;
   }
+
   .planning .container .card.app{
     position: relative;
+  }
+
+  .benefits .container .card{
+    width: calc(95% /3);
 
   }
 }
