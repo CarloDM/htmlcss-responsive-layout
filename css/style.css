@@ -38,7 +38,8 @@ header .logo{
   height: 80px;
 }
 
-header .container .items {
+header .container {
+  width: 95%;
 
 }
 
