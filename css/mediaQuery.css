@@ -21,6 +21,17 @@
     width: calc(194% /3);
     
   }
+
+  .testimonial .container .card{
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+    
+  }
+
+  .testimonial .container .card div{
+    width: 75%;
+  }
   
 }
 
@@ -28,7 +39,8 @@
 @media  screen and (min-width:1020px){
 
   header .container,
-  .get .container
+  .get .container,
+  .testimonial .container
   {
     width: 70%;
   }
