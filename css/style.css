@@ -6,3 +6,55 @@
   box-sizing: border-box;
 }
 
+/* general  */
+
+.debug {
+  background-color: rgba(255, 0, 0, 0.25);
+  border: 1px solid black;
+}
+
+.container{
+  margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+}
+
+/* header  */
+header{
+  position: fixed;
+  height: 80px;
+  width: 100%;
+}
+
+header .container {
+  justify-content: space-between;
+  align-items:center
+}
+
+header .logo{
+  width: 200px;
+  height: 80px;
+}
+
+header .container .items {
+
+}
+
+header .container .items ul {
+  list-style-type: none;
+
+}
+
+header .container .items ul li {
+  display: inline-block;
+  text-align: center;
+  line-height: 70px;
+  padding: 0px 20px;
+}
+
+.hamburger-menu {
+  width: 100px;
+  height: 80px;
+}
