@@ -15,4 +15,8 @@
   header .container .items ul li:not(li:last-child) {
     display: inline-block;
   }
+
+  header .container .items ul li.hamburger-menu {
+    display: none;
+  }
 }
