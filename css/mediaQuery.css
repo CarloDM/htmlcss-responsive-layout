@@ -6,9 +6,30 @@
   
 }
 
+@media screen and (min-width:768px) {
+
+  .get .container {
+    justify-content: space-evenly
+  }
+
+  .get .container .card{
+    width: calc(95% /3);
+
+  }
+
+  .get .container .card.demo{
+    width: calc(194% /3);
+    
+  }
+  
+}
+
+
 @media  screen and (min-width:1020px){
 
-  header .container{
+  header .container,
+  .get .container
+  {
     width: 70%;
   }
 
@@ -19,4 +40,6 @@
   header .container .items ul li.hamburger-menu {
     display: none;
   }
+
+  
 }

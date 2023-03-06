@@ -26,6 +26,7 @@ header{
   position: fixed;
   height: 80px;
   width: 100%;
+  margin-top: -80px;
 }
 
 header .container {
@@ -40,6 +41,7 @@ header .logo{
 
 header .container {
   width: 95%;
+  
 
 }
 
@@ -58,4 +60,25 @@ header .container .items ul li {
 .hamburger-menu {
   width: 100px;
   height: 80px;
+}
+
+/* main  */
+main{
+  margin-top: 80px;
+}
+
+/* get  */
+
+.get .container {
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 95%;
+  padding: 40px 0px;
+}
+
+.get .container .card{
+  width: 100%;
+  border-radius: 30px;
+  margin: 10px 0px;
+  padding: 20px;
 }
