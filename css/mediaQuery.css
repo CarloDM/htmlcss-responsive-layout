@@ -41,5 +41,17 @@
     display: none;
   }
 
-  
+  .planning .container{
+    text-align: center;
+    width: 65%;
+  }
+
+  .planning .container .card{
+    display: inline-block;
+    width: 49%;
+  }
+  .planning .container .card.app{
+    position: relative;
+
+  }
 }

@@ -27,6 +27,7 @@ header{
   height: 80px;
   width: 100%;
   margin-top: -80px;
+  z-index: 999;
 }
 
 header .container {
@@ -81,4 +82,28 @@ main{
   border-radius: 30px;
   margin: 10px 0px;
   padding: 20px;
+}
+
+/* planning  */
+
+.planning .container {
+  margin-top: 30px;
+  width: 95%;
+
+}
+
+.planning .container .card {
+
+}
+
+.planning .container .card.strategic{
+  color: white;
+}
+
+.planning .container .card.strategic h2 {
+  margin: 30px;
+}
+
+.planning .container .card.app{
+  text-align: center;
 }
