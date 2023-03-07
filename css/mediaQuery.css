@@ -1,10 +1,13 @@
+/* smarphone */
+
 @media  screen and (min-width:390px) {
 
   header .container .items ul li:not(li:last-child) {
     display: none;
-  }
-  
+  }  
 }
+
+/* tablet  */
 
 @media screen and (min-width:768px) {
 
@@ -14,7 +17,6 @@
 
   .get .container .card{
     width: calc(95% /3);
-
   }
 
   .get .container .card.demo{
@@ -48,9 +50,9 @@
   footer .container{
     width: 65%;
   }
-  
 }
 
+/* desktop  */
 
 @media  screen and (min-width:1020px){
 
@@ -58,8 +60,7 @@
   .get .container,
   .testimonial .container,
   .benefits .container,
-  .about-us .container
-  {
+  .about-us .container {
     width: 70%;
     max-width: 1280px;
   }
@@ -94,8 +95,7 @@
   .get-started .container {
     width: 55%;
   }
-
-  
+ 
   footer .container{
     width: 45%;
   }
