@@ -21,14 +21,12 @@
 
   .get .container .card.demo{
     width: calc(194% /3);
-    
   }
 
   .testimonial .container .card{
     flex-direction: row;
     justify-content: space-evenly;
     text-align: left;
-    
   }
 
   .testimonial .container .card div{
